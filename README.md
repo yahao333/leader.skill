@@ -50,8 +50,6 @@ and get an **AI Skill that carries their leadership essence**
 git clone https://github.com/yahao333/leader.skill ~/.claude/skills/leader
 ```
 
----
-
 ## 使用
 
 在 Claude Code 中输入：
@@ -60,14 +58,13 @@ git clone https://github.com/yahao333/leader.skill ~/.claude/skills/leader
 /leader
 ```
 
-### 命令
+### 管理命令
 
 | 命令 | 说明 |
 |------|------|
-| `/leader` | 调用完整 Skill |
-| `/leader-vision` | 战略愿景模式 |
-| `/leader-crisis` | 危机处理模式 |
-| `/leader-motivate` | 激励模式 |
+| `/leader` | 调用 Leader Skill 创建器 |
+| `/list-leaders` | 列出所有已创建的 Leader Skill |
+| `/delete-leader {slug}` | 删除指定 Leader Skill |
 
 ---
 

@@ -50,8 +50,6 @@ and get an **AI Skill that carries their leadership essence**
 git clone https://github.com/yahao333/leader.skill ~/.claude/skills/leader
 ```
 
----
-
 ## Usage
 
 In Claude Code, type:
@@ -60,14 +58,13 @@ In Claude Code, type:
 /leader
 ```
 
-### Commands
+### Management Commands
 
 | Command | Description |
 |---------|-------------|
-| `/leader` | Invoke full Skill |
-| `/leader-vision` | Strategic vision mode |
-| `/leader-crisis` | Crisis handling mode |
-| `/leader-motivate` | Motivation mode |
+| `/leader` | Invoke Leader Skill creator |
+| `/list-leaders` | List all created Leader Skills |
+| `/delete-leader {slug}` | Delete specified Leader Skill |
 
 ---
 
