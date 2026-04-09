@@ -2,7 +2,7 @@
 
 # leader.skill
 
-> *"Leadership is not about being in charge. It's about taking care of those in your charge."*
+> *"领导力不是关于职位，而是关于照顾你负责的人。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,20 +11,20 @@
 
 <br>
 
-Your leader's vision that aligned teams,
-their decision-making under pressure,
-the way they motivated the unmotivated,
-and the culture they built around them.
+你领导人的战略眼光让团队方向一致，
+他在压力下的决策方式，
+他激励消极的人的方式，
+还有他建立的团队文化。
 
-**Preserve their leadership philosophy — welcome to cyber-immortality!**
+**保留他的领导力哲学 —— 欢迎加入赛博永生！**
 
 <br>
 
-Provide source materials (all-hands recordings, emails, team messages, meeting notes)
-plus your observations of their leadership style,
-and get an **AI Skill that carries their leadership essence**
+提供原材料（全员会录音、邮件、团队消息、会议纪要）
+加上你对他领导风格的观察，
+生成一个**承载他领导力灵魂的 AI Skill**
 
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
+[支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
 [**English**](README_EN.md) · [**中文**](README_ZH.md)
 
