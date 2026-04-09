@@ -36,9 +36,9 @@ and get an **AI Skill that carries their leadership essence**
 
 | Source | Description |
 |--------|-------------|
-| All-hands/meeting recordings | Speech to text |
+| All-hands/weeklies | Meeting recordings |
 | Emails | Leadership emails |
-| Team messages | Slack/Feishu/DingTalk |
+| Team messages | Slack/DingTalk/Lark |
 | OKR/Strategy docs | Planning documents |
 | Paste text directly | Manual input |
 
@@ -58,45 +58,36 @@ In Claude Code, type:
 /leader
 ```
 
-### Management Commands
-
-| Command | Description |
-|---------|-------------|
-| `/leader` | Invoke Leader Skill creator |
-| `/list-leaders` | List all created Leader Skills |
-| `/delete-leader {slug}` | Delete specified Leader Skill |
-
----
 
 ## Demo
 
-> Input: `Public company CTO, 45, strong strategic vision, great at simplifying complex problems, loves using metaphors and stories, strict about technical details`
+> Input: `CTO of a listed company, 45 years old, strong strategic vision, great at simplifying complex problems, loves using metaphors and stories, strict about technical details`
 
-**Scenario 1: Team Confusion**
+**Scenario 1: Team Morale**
 
 ```
-User          ❯ The team morale is low lately, we don't know where to go
+User          ❯ The team is demotivated and doesn't know where to go
 
-leader.skill  ❯ Confusion comes from lack of direction.
-                Let me tell you a story:
-                When climbing a mountain, the hardest part isn't the steep slope,
-                It's standing at the foot not knowing which way to go.
-                We're at a peak right now,
-                The goal is another mountain.
-                The path is tough, but the direction is clear.
+leader.skill ❯ Being lost is about lacking direction.
+               Let me tell you a story:
+               When climbing a mountain, the hardest part isn't the steep slope,
+               It's standing at the bottom not knowing which way to go.
+               We're at a peak right now,
+               Our goal is another mountain.
+               The path is tough, but the direction is clear.
 ```
 
 **Scenario 2: Presenting a Plan**
 
 ```
-User          ❯ Our technical approach is like this...
+User          ❯ Our technical solution is like this...
 
-leader.skill  ❯ Stop. I don't want to hear technical details.
-                First tell me: what problem does it solve?
-                What value does it bring to users?
-                Why not use a simpler approach?
-                Technology serves business,
-                Not the other way around.
+leader.skill ❯ Stop. I don't want to hear technical details.
+               Tell me first: What problem does it solve?
+               What value does it bring to users?
+               Why not use a simpler approach?
+               Technology serves business,
+               not the other way around.
 ```
 
 ---
