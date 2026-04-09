@@ -2,7 +2,7 @@
 
 # leader.skill
 
-> *"领导力不是关于职位，而是关于照顾你负责的人。"*
+> *"领导力不是关于掌控，而是关于照顾你所带领的人。"*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
@@ -11,18 +11,18 @@
 
 <br>
 
-你领导人的战略眼光让团队方向一致，
-他在压力下的决策方式，
-他激励消极的人的方式，
-还有他建立的团队文化。
+你领导的愿景让团队凝聚，
+他们在压力下的决策方式，
+他们激励未找到动力的人的方式，
+以及他们围绕自己建立的团队文化。
 
-**保留他的领导力哲学 —— 欢迎加入赛博永生！**
+**保留他们的领导哲学 —— 欢迎加入赛博永生！**
 
 <br>
 
 提供原材料（全员会录音、邮件、团队消息、会议纪要）
-加上你对他领导风格的观察，
-生成一个**承载他领导力灵魂的 AI Skill**
+加上你对他们领导风格的观察，
+生成一个**承载他们领导精髓的 AI Skill**
 
 [支持的数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
 
@@ -58,15 +58,6 @@ git clone https://github.com/yahao333/leader.skill ~/.claude/skills/leader
 /leader
 ```
 
-### 管理命令
-
-| 命令 | 说明 |
-|------|------|
-| `/leader` | 调用 Leader Skill 创建器 |
-| `/list-leaders` | 列出所有已创建的 Leader Skill |
-| `/delete-leader {slug}` | 删除指定 Leader Skill |
-
----
 
 ## 效果示例
 
