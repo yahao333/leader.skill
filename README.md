@@ -1,108 +1,37 @@
-<div align="center">
-
 # leader.skill
 
-> *"Leadership is not about being in charge. It's about taking care of those in your charge."*
+蒸馏领导者的愿景、决策风格和管理哲学到一个 AI Skill 中。
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![AgentSkills](https://img.shields.io/badge/AgentSkills-Standard-green)](https://agentskills.io)
-
-<br>
-
-Your leader's vision that aligned teams,
-their decision-making under pressure,
-the way they motivated the unmotivated,
-and the culture they built around them.
-
-**Preserve their leadership philosophy — welcome to cyber-immortality!**
-
-<br>
-
-Provide source materials (all-hands recordings, emails, team messages, meeting notes)
-plus your observations of their leadership style,
-and get an **AI Skill that carries their leadership essence**
-
-[数据来源](#支持的数据来源) · [安装](#安装) · [使用](#使用) · [效果示例](#效果示例) · [详细安装说明](INSTALL.md)
-
-[**English**](README_EN.md) · [**中文**](README_ZH.md)
-
-</div>
-
----
-
-## 支持的数据来源
-
-| 来源 | 说明 |
-|------|------|
-| 全员会/周会录音 | 演讲转文字 |
-| 邮件 | 领导力邮件 |
-| 团队消息 | Slack/飞书/钉钉 |
-| OKR/战略文档 | 规划文档 |
-| 直接粘贴文字 | 手动输入 |
-
----
-
-## 安装
-
-```bash
-git clone https://github.com/yahao333/leader.skill ~/.claude/skills/leader
-```
-
-## 使用
-
-在 Claude Code 中输入：
-
-```
-/leader
-```
-
-### 管理命令
+## 使用方法
 
 | 命令 | 说明 |
 |------|------|
-| `/leader` | 调用 Leader Skill 创建器 |
-| `/list-leaders` | 列出所有已创建的 Leader Skill |
-| `/delete-leader {slug}` | 删除指定 Leader Skill |
+| `/leader` | 调用领导 Skill 创建器 |
 
----
+## 功能说明
 
-## 效果示例
+Leader.skill 是一个 Claude Code 扩展，用于将领导者的愿景、决策风格和管理哲学蒸馏成一个 AI Skill。
 
-> 输入：`上市公司CTO，45岁，战略眼光强，擅长把复杂问题简单化，喜欢用比喻讲故事，对技术细节要求严格`
+### 工作流程
 
-**场景一：团队迷茫**
+1. **录入信息**：称呼、基本信息、领导风格
+2. **导入原材料**：会议录音、邮件、文档等
+3. **分析生成**：提取愿景思维、决策风格、管理哲学
+4. **确认写入**：生成 Leader Skill 文件
 
-```
-用户      ❯ 团队最近士气很低，不知道往哪走
+### 原材料类型
 
-leader.skill ❯ 迷茫是因为没有方向感。
-               我给你们讲个故事：
-               爬山的时候，最累的不是在陡坡，
-               而是在山脚不知道往哪走的时候。
-               我们现在就是在一个山头，
-               目标是另一座山。
-               路是难走，但方向是清楚的。
-```
+- 会议录音/纪要
+- 邮件往来
+- 文档/PPT
+- 聊天记录
+- 直接粘贴文字
 
-**场景二：汇报方案**
+## 安装
 
-```
-用户      ❯ 我们的技术方案是这样的...
+查看 [INSTALL.md](INSTALL.md) 了解安装步骤。
 
-leader.skill ❯ 停。我不想听技术细节。
-               你先告诉我：解决了什么问题？
-               给用户带来了什么价值？
-               为什么不用更简单的方式？
-               技术是为业务服务的，
-               不是反过来。
-```
+## 项目信息
 
----
-
-<div align="center">
-
-MIT License © [yahao333](https://github.com/yahao333)
-
-</div>
+- 版本：1.0.0
+- 许可：MIT License
